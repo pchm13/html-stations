@@ -23,15 +23,15 @@ footer {
   font-size: 14px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 768px) {
   .card__title {
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 320px) {
   .card__title {
-    font-size: 10px;
+    font-size: 7px;
   }
 }
 
@@ -40,16 +40,16 @@ footer {
   font-size: 12px;
 }
 
-@media screen and (min-width: 320px) {
-  .card__description {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .card__description {
     font-size: 10px;
     text-overflow: ellipsis;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card__description {
+    display: none;
   }
 }
 
