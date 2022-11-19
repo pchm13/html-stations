@@ -1,0 +1,64 @@
+img {
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: #c4c4c4;
+}
+
+main {
+  display: flex;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #ffffff;
+}
+
+.card__title {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 320px) {
+  .card__title {
+    font-size: 7px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card__title {
+    font-size: 10px;
+  }
+}
+
+.card__description {
+  color: #282828;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 320px) {
+  .card__description {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card__description {
+    font-size: 10px;
+    text-overflow: ellipsis;
+  }
+}
+
+.card__img-top {
+  width: 288px;
+  height: 182px;
+}
+
+.card {
+  padding: 10px;
+  background-color: #2660a1;
+}
